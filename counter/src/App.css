@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.main-container {
+  padding: 20px;
+  margin: 0;
+  height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-head {
+  font-size: 50px;
+  color: #000000;
+  font-weight: 900;
+}
+
+.actions-container {
+  margin-top: 20px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.action-btn {
+  cursor: pointer;
+  outline: none;
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid rgb(255, 68, 0);
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.counter-number {
+  font-size: 60px;
+  font-family: "Roboto";
+  color: rgb(3, 0, 201);
+}
